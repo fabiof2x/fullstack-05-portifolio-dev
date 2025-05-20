@@ -7,7 +7,7 @@
   position: relative;
   width: 96px;
   height: 96px;
-  border: 2px solid #3996DB;
+  border: 2px solid var(--blue);
   border-radius: 50%;
 }
 
@@ -15,8 +15,8 @@
   position: absolute;
   inset: 0;
   margin: auto;
-  width: 84px;
-  height: 84px;
+  width: 82px;
+  height: 82px;
   object-fit: cover;
   border-radius: 50%;
 }
