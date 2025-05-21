@@ -1,0 +1,44 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/assets/bg/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  header {
+    max-width: 680px;
+    margin-block: 120px 80px;
+  }
+}
+
+#intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 56px;
+
+  h1 {
+    margin-block: 8px 20px;
+  }
+}
+
+#tags {
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+
+    li {
+      display: flex;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background-color: var(--gray-300);
+      gap: 8px;
+    }
+  }
+}
+
+.scroll-down {
+  margin-block: 94px 57px;
+}
