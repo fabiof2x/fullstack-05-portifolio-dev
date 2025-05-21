@@ -5,3 +5,7 @@
 .text-purple {
   color: var(--purple);
 }
+
+.text-center { 
+  text-align: center; 
+}

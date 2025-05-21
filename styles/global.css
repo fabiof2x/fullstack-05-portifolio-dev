@@ -82,3 +82,9 @@ a {
 img {
   max-width: 100%;
 }
+
+header {
+  h2 {
+    margin-top: 8px;
+  }
+}
